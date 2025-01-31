@@ -1,0 +1,3 @@
+# JavaScript Null Handling Bug
+
+This repository demonstrates a common, yet subtle, bug in JavaScript related to handling null or undefined values in a function that performs addition.  The `foo` function attempts to add two numbers but does not correctly account for the possibility of null or undefined input. This can lead to unexpected behavior or errors in certain scenarios.  The `bugSolution.js` file shows the corrected implementation. 
